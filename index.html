@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Dashboard UI</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <!-- <img src="" alt="Touch & Vote Logo" /> -->
+        <h2 class="fake-logo">Dachi Dachi</h2>
+      </div>
+      <nav class="nav">
+        <div class="nav-container">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="" class="nav-link">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Canpaign</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">User Data</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Invoices</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Purchase History</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link active">Payment</a>
+              <img src="./next-arrow.svg" alt="" class="next" />
+            </li>
+            <li class="nav-item border">
+              <img src="./coin.svg" alt="" class="coin" />
+              <a href="" class="nav-link blue">350,000 Credits</a>
+            </li>
+            <li class="nav-item border">
+              <img
+                src="https://scontent.frgn7-1.fna.fbcdn.net/v/t1.0-9/96560846_933953667039601_3937577861799477248_n.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_eui2=AeGswidjGYRGfyp4Gi6fjXvZTgvbRIyGIMBOC9tEjIYgwFtaqTErfuF0G2o98-PR9k1VUIWVszIaAeh4DTcoIIme&_nc_ohc=shMJYMgH0aYAX_ZOhIq&_nc_ht=scontent.frgn7-1.fna&oh=23247e455d0ab286d55eb6c6dd6cc866&oe=5F1053E0"
+                class="profile-image"
+                alt="profile-image"
+              />
+              <a href="" class="profile-name">Yan Aung Hein</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="primary-container">
+      <div class="secondary-container">
+        <div class="info-container">
+          <div class="early-payment-wrapper">
+            <div class="container-with-bottom-border">
+              <h4>Early Payment</h4>
+            </div>
+            <div class="container">
+              <form action="" class="early-payment-form" autocomplete="off">
+                <div class="form-wrapper">
+                  <label for="customer-name">Customer Name</label>
+                  <input type="text" id="customer-name" class="customer-name" />
+                </div>
+                <div class="form-wrapper">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="email" />
+                </div>
+                <div class="form-wrapper">
+                  <label for="phone">Phone</label>
+                  <input type="text" id="phone" class="phone" />
+                </div>
+              </form>
+            </div>
+            <div class="payment-method-wrapper">
+              <div class="container-with-bottom-border">
+                <h4>Choose Your Payment Method</h4>
+              </div>
+              <div class="container">
+                <div class="payment-method-card-wrapper">
+                  <div class="card">
+                    <img src="./visa.svg" alt="" />
+                  </div>
+                  <div class="card">
+                    <img src="./visa.svg" alt="" />
+                  </div>
+                  <div class="card">
+                    <img src="./visa.svg" alt="" />
+                  </div>
+                  <div class="card">
+                    <img src="./visa.svg" alt="" />
+                  </div>
+                  <div class="card">
+                    <img src="./visa.svg" alt="" />
+                  </div>
+                  <div class="card">
+                    <img src="./visa.svg" alt="" />
+                  </div>
+                  <div class="card">
+                    <img src="./visa.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <form action="" class="early-payment-form" autocomplete="off">
+                  <div class="form-wrapper two full-width">
+                    <label for="cardholder-name">Cardholder Name</label>
+                    <input
+                      type="text"
+                      id="cardholder-name"
+                      class="cardholder-name"
+                    />
+                  </div>
+                  <div class="form-wrapper two card-num">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" class="card-number" />
+                  </div>
+                  <div class="form-wrapper two date">
+                    <label for="date">Date</label>
+                    <input type="text" id="date" class="date" />
+                  </div>
+                  <div class="form-wrapper two cvc">
+                    <label for="cvc">CVC</label>
+                    <input type="text" id="cvc" class="cvc" />
+                  </div>
+                </form>
+              </div>
+              <div class="early-payment-wrapper">
+                <div class="container-with-bottom-border">
+                  <h4>Choose Your Payment Amount</h4>
+                </div>
+                <div class="container">
+                  <div class="amount-wrapper">
+                    <p class="amount">100,000 MMK</p>
+                    <p class="amount">300,000 MMK</p>
+                    <p class="amount">500,000 MMK</p>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="check-wrapper">
+                    <input type="checkbox" id="save-my-payment" />
+                    <label for="save-my-payment"
+                      >Save my payment for details further purchases</label
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order-container">
+          <div class="container-with-bottom-border">
+            <h3>Order Summary</h3>
+            <div class="bill-wrapper">
+              <div class="inner-wrapper">
+                <p>Balance amount :</p>
+                <p>100,000 MMK</p>
+              </div>
+              <div class="inner-wrapper">
+                <p>Tax (5%) :</p>
+                <p>5,000 MMK</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="total-wrapper">
+              <div class="inner-wrapper">
+                <p class="bold">Total amount :</p>
+                <p>105,000 MMK</p>
+              </div>
+              <div class="inner-wrapper column">
+                <div class="content-wrapper">
+                  If you have some kind of issue you can cantact our team. Thank
+                  you for using our service. Have a good day.
+                </div>
+                <a href="" class="purchase-btn">Continue Purchase</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"
+      integrity="sha256-+Q/z/qVOexByW1Wpv81lTLvntnZQVYppIL1lBdhtIq0="
+      crossorigin="anonymous"
+    ></script> -->
+    <!-- Font Awesome is currently updating, and I can't use it. -->
+  </body>
+</html>
